@@ -1,0 +1,8 @@
+*.txt
+.cpcache
+*/doc/*
+*/.gitignore
+*/resources/
+*/*.md
+*/LICENSE
+.DS_Store
