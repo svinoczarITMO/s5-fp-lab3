@@ -25,7 +25,7 @@
 (deftest test-format-output
   (let [x-values [2.0 4.0 6.0]
         y-values [1.0 3.0 5.0]
-        expected "X: 2,00\t4,00\t6,00\nY: 1,00\t3,00\t5,00\n"]
+        expected "X: 2.00\t4.00\t6.00\nY: 1.00\t3.00\t5.00\n"]
     (is (= (format-output x-values y-values) expected))))
 
 (deftest test-lagrange-interpolation
