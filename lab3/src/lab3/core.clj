@@ -1,7 +1,6 @@
 (ns lab3.core
   (:require [clojure.string :as str]
-            [clojure.tools.cli :refer [parse-opts]])
-  (:gen-class))
+            [clojure.tools.cli :refer [parse-opts]]))
 
 (def cli-options
   [["-s" "--step STEP" "Шаг интерполяции" :parse-fn #(Double/parseDouble %)]
