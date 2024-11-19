@@ -18,9 +18,6 @@ jobs:
       uses: DeLaGuardo/setup-clojure@master
       with:
         cli: 1.10.3.1040
-
-    - name: Install clj-kondo
-      run: npm install -g clj-kondo
       
     - name: Format 
       run: cd lab3/ && clojure -M:format

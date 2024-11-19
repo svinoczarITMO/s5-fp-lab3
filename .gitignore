@@ -1,4 +1,3 @@
-*.txt
 .cpcache
 */doc/*
 */.gitignore
@@ -6,3 +5,5 @@
 */*.md
 */LICENSE
 .DS_Store
+.clj-kondo
+.lsp
